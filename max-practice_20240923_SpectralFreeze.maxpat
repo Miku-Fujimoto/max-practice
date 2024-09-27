@@ -40,12 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 586.0, 86.0, 150.0, 20.0 ],
+					"text" : "dont forget to record"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 884.0, 532.0, 44.0, 22.0 ],
+					"patching_rect" : [ 885.0, 621.0, 44.0, 22.0 ],
 					"text" : "limi~ 2"
 				}
 
@@ -59,7 +70,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 876.0, 368.0, 48.0, 136.0 ],
+					"patching_rect" : [ 871.0, 340.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -215,7 +226,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 589.0, 45.0, 45.0 ]
+					"patching_rect" : [ 339.0, 678.0, 45.0, 45.0 ]
 				}
 
 			}
